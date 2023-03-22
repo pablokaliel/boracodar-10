@@ -48,6 +48,10 @@ export const DivImgHours = styled.div`
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
+    @media (max-width: 770px) {
+    top:705px;
+    
+  }
   }
 `;
 
