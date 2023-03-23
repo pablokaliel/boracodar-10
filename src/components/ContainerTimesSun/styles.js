@@ -17,6 +17,7 @@ export const DivTitle = styled.div`
   width: 100%;
   justify-content: center;
   align-items: center;
+
   p {
     /* font-weight: 700; */
     font-size: 16px;
@@ -34,24 +35,19 @@ export const DivImgHours = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   img {
     width: 217px;
     margin-top: 24px;
-    position: relative;
     height: 110px;
     margin-bottom: 8px;
   }
+
   p {
-    position: absolute;
-    top: 38%;
     color: #fff;
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
-    @media (max-width: 770px) {
-    top:705px;
-    
-  }
   }
 `;
 

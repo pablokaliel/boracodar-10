@@ -8,16 +8,19 @@ export const SwapperDay = styled.div`
   gap: 16px;
   width: 100%;
   height:100%;
+ 
   @media (max-width: 770px) {
     gap:30px;
     height: 230px;
   }
+
   p {
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
     color: rgba(218, 216, 247, 1);
   }
+
   span {
     display: flex;
     align-items: center;
@@ -42,6 +45,7 @@ export const DaysAndClima = styled.div`
   grid-column-end: 3;
   padding: 0px 40px;
   border-radius: 10px;
+
   @media (max-width: 770px) {
     display: flex;
     align-items:center;

@@ -13,7 +13,6 @@ function TimesAndSun() {
 
       <DivImgHours>
         <img src={sunhours} alt="" />
-        <p>16:01</p>
       </DivImgHours>
       <DivHours>
         <p>06:12</p>
